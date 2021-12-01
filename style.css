@@ -1,0 +1,56 @@
+.H3man {
+    font-size: 23px;
+    width: 100%;
+    margin-top: 0;
+}
+
+#NOTE {
+    font-size: 15px;
+    color: black;
+}
+
+body {
+   background:URl("background.jpg");
+   background-size: cover;
+}
+
+#Volume {
+    float: right;
+    margin-left: 20px;
+}
+
+#HULA {
+    height: 400px;
+}
+
+#Thebest {
+    height: auto;
+    width: auto;
+    font-size: 20px;
+}
+
+#Speed {
+    float: left;
+    margin-right: 20px;
+}
+
+#HULA1 {
+    height: 400px;
+}
+
+#Theworst {
+    height: auto;
+    width: auto;
+    font-size: 20px;
+}
+
+#Big {
+    width: 130px;
+    font-size: 25px;
+}
+
+canvas {
+    border: 5px solid greenyellow;
+    border-radius: 25px;
+    box-shadow: 3px orangered;
+}
