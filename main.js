@@ -70,25 +70,25 @@ function draw()
         if(rightWristy >200 && rightWristy <300)
         {
             document.getElementById("Theworst").innerHTML = "Speed x1.5";
-            Song.rate(2);
+            Song.rate(1.5);
         }
 
         if(rightWristy >300 && rightWristy <400)
         {
             document.getElementById("Theworst").innerHTML = "Speed x2";
-            Song.rate(3);
+            Song.rate(2);
         }
 
         if(rightWristy >400 && rightWristy <500)
         {
-            document.getElementById("Theworst").innerHTML = "Speed x2.5";
-            Song.rate(4);
+            document.getElementById("Theworst").innerHTML = "Speed x2.25";
+            Song.rate(2.25);
         }
 
         if(rightWristy >400)
         {
-            document.getElementById("Theworst").innerHTML = "Speed x3";
-            Song.rate(3);
+            document.getElementById("Theworst").innerHTML = "Speed x2.5";
+            Song.rate(2.5);
         }
     }
 
@@ -97,7 +97,7 @@ function draw()
         circle(leftWristx,leftWristy,30);
         leftWristyinNumber = Number (leftWristy);
         removeDecimal = floor(leftWristyinNumber);
-        Volume = removedecimal/600;
+        Volume = removeDecimal/600;
         Song.setVolume(Volume);
         document.getElementById("Thebest").innerHTML = "Volume:" + Volume;
     }
